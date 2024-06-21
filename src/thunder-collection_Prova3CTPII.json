@@ -1,0 +1,57 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Prova3CTPII",
+    "collectionId": "a21e3cc2-fca3-4c93-9919-0085c26b4250",
+    "dateExported": "2024-06-17T16:20:04.116Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "2e4e65ce-af43-4af4-b766-1a7e15d63bfe",
+            "colId": "a21e3cc2-fca3-4c93-9919-0085c26b4250",
+            "containerId": "",
+            "name": "Criar Funcionario",
+            "url": "http://localhost:3001/funcionario",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-06-17T16:09:37.666Z",
+            "modified": "2024-06-17T16:12:11.891Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\":\"José\",\n  \"idade\": 20,\n  \"email\": \"jose@dev.xpto.tec.br\",\n  \"fone\": \"12988991255\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "d0be8975-275a-4713-845e-32989ab1f474",
+            "colId": "a21e3cc2-fca3-4c93-9919-0085c26b4250",
+            "containerId": "",
+            "name": "Criar Mensalista",
+            "url": "http://localhost:3001/mensalista",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-06-17T16:12:33.328Z",
+            "modified": "2024-06-17T16:17:40.856Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"matricula\":\"1234567891\",\n  \"salario\": 5000,\n  \"funcionario\": \"6670605ba12d05d3a8cabaf8\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "024328f9-0845-45d1-840c-d17375cf6fca",
+            "colId": "a21e3cc2-fca3-4c93-9919-0085c26b4250",
+            "containerId": "",
+            "name": "Listar Mensalista",
+            "url": "http://localhost:3001/mensalista",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-06-17T16:18:03.607Z",
+            "modified": "2024-06-17T16:18:47.399Z",
+            "headers": []
+        }
+    ],
+    "ref": "a2ogrQbYsRthzMzCVhMBj3ks6QTHra_9TM1HlZ80UujEtvmKFJ_DbwshXhRmV8z7hpoEmlpGCCJZCmtLOIJaWg"
+}
